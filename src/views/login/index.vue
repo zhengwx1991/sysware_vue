@@ -53,7 +53,7 @@
 										console.log('userInfo', respUser.data)
 										// 1、保存token,用户信息
 										localStorage.setItem('sysware-user', JSON.stringify(respUser.data))
-										localStorage.setItem('sysware-token', respUser.data.token)
+										localStorage.setItem('sysware-token', resp.data.token)
 										// 前往首页
 										this.$router.push('/')
 									} else{

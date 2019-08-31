@@ -5,6 +5,9 @@ import App from "./App.vue";
 import router from "./router";
 import store from "./store";
 
+// 权限拦截
+import './permissions'
+
 Vue.config.productionTip = false;
 Vue.use(ElementUI);
 
