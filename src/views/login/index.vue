@@ -43,7 +43,6 @@
 						// 提交表单给后台进行验证是否正确
 						login(this.form.username, this.form.password).then(response => {
 							const resp = response.data
-							console.log(resp, resp.flag, resp.data.token)
 							if (resp.flag) {
 								// 验证成功，通过token获取用户信息
 								getUserInfo(resp.data.token).then(response => {
