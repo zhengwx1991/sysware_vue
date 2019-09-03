@@ -88,12 +88,16 @@
 		position: absolute;
 		width: 100%;
 		height: 100%;
-		background: url(../../assets/login.jpg);
+		background: url(../../assets/login.png);
 	}
 
 	.login-form {
 		width: 350px;
-		margin: 160px auto;
+		margin-left: 900px;
+		top: 50%;
+		position: relative;
+		top: 50%; /*偏移*/
+		transform: translateY(-50%);
 		background-color: rgb(255, 255, 255, 0.8);
 		padding: 28px;
 		border-radius: 20px;

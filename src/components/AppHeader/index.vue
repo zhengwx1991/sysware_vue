@@ -1,7 +1,7 @@
 <template>
 	<div class="header">
 		<a href="#/">
-			<img class="logo" src="@/assets/logo.png" width="20px" />
+			<img class="logo" src="@/assets/logo.png"/>
 			<span class="company">软件集成研发平台</span>
 		</a>
 		<el-dropdown @command="handleCommand">
